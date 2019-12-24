@@ -1,7 +1,18 @@
 {
-  "name": "def-psql",
+  "name": "express-psql-auth-reg",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
+  "description": "Example Application Express 4 Sequalize(psql)",
+  "keywords": [
+    "express",
+    "sequalize",
+    "postgres",
+    "psql",
+    "auth",
+    "reg",
+    "sign in",
+    "sign up"
+  ],
   "scripts": {
     "start": "node ./bin/www"
   },
