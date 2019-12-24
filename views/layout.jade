@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        link(rel="icon" type="image/png" href="/icon.png")
+        title= title
+        link(rel='stylesheet', href='/css/style.css')
+    body
+        header
+            include nav
+        .ct
+            block content
+        footer
+        script(src='/lib/axios.min.js')
+        script(src='/lib/browser.min.js')
+        script(src='/lib/browser-polyfill.min.js')
+        script(src='/lib/react.production.min.js')
+        script(src='/lib/react-dom.production.min.js')
+        script(src='/js/main.js' type='text/babel')
+

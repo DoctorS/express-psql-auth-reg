@@ -1,0 +1,9 @@
+nav.top
+    ul
+        li: a(href='/') Home
+        li: a(href='/about') About
+        if !user
+            li: a(href='/sign-in') Sign In
+        if user
+            li: a(href='/profile') Profile
+            li: a.logout(href='#') Logout

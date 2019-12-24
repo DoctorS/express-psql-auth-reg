@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    h1= title
+    if path === '/'
+        p Welcome to site!
+    if path === '/about'
+        p: a(href='https://labinweb.com/?utm_source=psql' target='_blank' rel='noopener') Developer
+    if path === '/sign-up'
+        #SignUp
+    if path === '/sign-in'
+        #SignIn
+    if path === '/profile'
+        if user
+            p=user.email
