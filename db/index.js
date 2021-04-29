@@ -3,7 +3,7 @@ const User = require('./user')
 const config = require('config')
 
 const sequelize = new Sequelize(config.DB_URL, {
-  // logging: false
+  logging: false
 })
 
 sequelize.sync()

@@ -72,6 +72,9 @@ class SignUp extends React.Component {
           Sign Up
         </button>
         <div className="error">{this.state.error}</div>
+        <div>
+          <a href="/sign-in">Sign In</a>
+        </div>
       </div>
     )
   }
