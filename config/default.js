@@ -1,5 +1,3 @@
-const config = require('./config')
-
 module.exports = {
-  DB_URL: `postgres://${config.DB_USER}:${config.DB_PASS}@${config.DB_HOST}/${config.DB_NAME}`
+  DB_URL: `postgres://user:password@localhost:5432/db_name`
 }
